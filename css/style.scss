@@ -38,6 +38,13 @@ main {
             line-height: normal;
             text-align: center;
             padding-top: 1.94rem;
+            position: relative;
+
+            img {
+                position: absolute;
+                bottom: -0.69rem;
+                right: 2.62rem;
+            }
         }
     }
 }
