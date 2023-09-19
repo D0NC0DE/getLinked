@@ -24,7 +24,14 @@ body {
 
 main header h1 {
   font-family: "ClashDisplay-Bold", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9375rem;
+  padding: 1.88rem 3rem 0rem;
+}
+main header hr {
+  color: #fff;
+  height: 0rem;
+  opacity: 0.18;
+  margin-top: 1.44rem;
 }
 
 .diffColor {
