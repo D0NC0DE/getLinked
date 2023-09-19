@@ -1,2 +1,6 @@
 @use 'color';
 @use 'svgs';
+
+body {
+    background-color: color.$bgcolor;
+}
