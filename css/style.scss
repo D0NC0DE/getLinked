@@ -1,6 +1,6 @@
 @use 'color';
 @use 'fonts';
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
 
 * {
     margin: 0;
@@ -9,8 +9,11 @@
 
 
 body {
-    background-color: color.$bgColor;
+    
     color: color.$white;
+    background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
+    background-size: 24.75rem 27.625rem;
+    background-color: color.$bgColor;
 }
 
 main {
@@ -26,6 +29,16 @@ main {
             height: 0rem;
             opacity: 0.18;
             margin-top: 1.44rem;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+            padding-top: 1.94rem;
         }
     }
 }

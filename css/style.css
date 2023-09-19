@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap");
 @font-face {
   font-family: "ClashDisplay-Variable";
   src: url("../fonts/ClashDisplay-Variable.woff2") format("woff2"), url("../fonts/ClashDisplay-Variable.woff") format("woff"), url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
@@ -19,8 +19,10 @@
 }
 
 body {
-  background-color: #150E28;
   color: #fff;
+  background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
+  background-size: 24.75rem 27.625rem;
+  background-color: #150E28;
 }
 
 main header h1 {
@@ -33,6 +35,15 @@ main header hr {
   height: 0rem;
   opacity: 0.18;
   margin-top: 1.44rem;
+}
+main header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 1.94rem;
 }
 
 .diffColor {
