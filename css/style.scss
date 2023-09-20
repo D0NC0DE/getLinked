@@ -89,6 +89,25 @@ main {
             }
         }
     }
+
+    .secondDiv {
+        height: 362.395px;
+        max-width: 480px;
+        background: url(../images/svgs/metrix1.svg) left top no-repeat, 
+                    url(../images/svgs/purpleLensFlare2.svg) left top no-repeat;
+        background-size: cover;
+
+        position: relative;
+
+        img {
+            max-width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    }
 }
 
 #creativeOne {
