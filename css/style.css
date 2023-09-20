@@ -52,6 +52,17 @@ main header h2 img {
   right: 2.62rem;
 }
 
+.container1 {
+  text-align: center;
+}
+.container1 h1 {
+  font-family: "ClashDisplay-Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 3.62rem;
+}
+
 .diffColor {
   color: #D434FE;
 }/*# sourceMappingURL=style.css.map */

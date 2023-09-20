@@ -49,6 +49,17 @@ main {
     }
 }
 
+.container1 {
+    text-align: center;
+    h1 {
+        font-family: 'ClashDisplay-Bold', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 3.62rem;
+    }
+}
+
 .diffColor {
     color: color.$secondColor;
 }
