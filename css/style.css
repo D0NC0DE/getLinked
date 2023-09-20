@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 @font-face {
   font-family: "ClashDisplay-Variable";
   src: url("../fonts/ClashDisplay-Variable.woff2") format("woff2"), url("../fonts/ClashDisplay-Variable.woff") format("woff"), url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
@@ -72,6 +73,18 @@ main header h2 {
   font-style: normal;
   font-weight: 400;
   padding-top: 9px;
+}
+.container1 .firstDiv h2 {
+  margin-top: 14.16px;
+  font-family: "Unica One", cursive;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+.container1 .firstDiv h2 .diffFont {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
 }
 
 #creativeOne {

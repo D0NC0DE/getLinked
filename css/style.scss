@@ -1,6 +1,7 @@
 @use 'color';
 @use 'fonts';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
 * {
     margin: 0;
@@ -72,6 +73,20 @@ main {
             font-style: normal;
             font-weight: 400;
             padding-top: 9px;
+        }
+
+        h2 {
+            margin-top: 14.16px;
+            font-family: 'Unica One', cursive;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 133%;
+
+            .diffFont {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 0.875rem;
+            }
         }
     }
 }
