@@ -28,7 +28,7 @@ body {
 
 main header h1 {
   font-family: "ClashDisplay-Bold", sans-serif;
-  font-size: 0.9375rem;
+  font-size: 15px;
   padding: 30px 48px 0;
 }
 main header hr {
@@ -39,7 +39,7 @@ main header hr {
 }
 main header h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-style: italic;
   font-weight: 700;
   line-height: normal;
@@ -51,9 +51,9 @@ main header h2 {
   position: relative;
 }
 #vectorFour img {
-  width: 7.19rem;
+  width: 115px;
   position: absolute;
-  bottom: -0.69rem;
+  bottom: -11px;
   right: 0;
 }
 
@@ -62,14 +62,14 @@ main header h2 {
 }
 .container1 .firstDiv h1 {
   font-family: "ClashDisplay-Bold", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
   line-height: normal;
   padding-top: 58px;
 }
 .container1 .firstDiv p {
   font-family: Montserrat;
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   padding-top: 9px;
@@ -77,14 +77,14 @@ main header h2 {
 .container1 .firstDiv h2 {
   margin-top: 14.16px;
   font-family: "Unica One", cursive;
-  font-size: 3rem;
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: 133%;
 }
 .container1 .firstDiv h2 .diffFont {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
 }
 .container1 .secondDiv {
   height: 362.395px;
@@ -106,26 +106,26 @@ main header h2 {
   position: relative;
 }
 #creativeOne img {
-  width: 1.125rem;
-  height: 1.625rem;
+  width: 18px;
+  height: 26px;
   position: absolute;
-  top: -1rem;
-  right: -0.2rem;
+  top: -16px;
+  right: -3.2px;
 }
 
 .textimg {
   display: inline-flex;
   align-items: center;
   position: relative;
-  top: 0.3rem;
+  top: 4.8px;
 }
 .textimg .chain {
-  width: 2rem;
-  height: 2rem;
+  width: 32px;
+  height: 32px;
 }
 .textimg .boom {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 22px;
+  height: 22px;
 }
 
 .container2 {
@@ -151,6 +151,25 @@ main header h2 {
   font-weight: 700;
   line-height: 122.5%;
 }
+.container2 .arrow {
+  margin-top: 10px;
+}
+.container2 .textdiv h3 {
+  margin-top: 22.15px;
+  font-family: "ClashDisplay-Bold", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+.container2 .textdiv p {
+  margin-top: 9px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+}
 
 .diffColor {
   color: #D434FE;
@@ -168,7 +187,7 @@ button {
 }
 
 .registerButton {
-  font-size: 0.875rem;
-  padding: 0.88rem 2.87rem;
+  font-size: 14px;
+  padding: 14.14px 46px;
   margin-top: 24px;
 }/*# sourceMappingURL=style.css.map */

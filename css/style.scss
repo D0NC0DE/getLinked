@@ -21,7 +21,7 @@ main {
     header {
         h1 {
             font-family: 'ClashDisplay-Bold', sans-serif;
-            font-size: 0.9375rem;
+            font-size: 15px;
             padding: 30px 48px 0;
         }
 
@@ -34,7 +34,7 @@ main {
 
         h2 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 1rem;
+            font-size: 16px;
             font-style: italic;
             font-weight: 700;
             line-height: normal;
@@ -48,9 +48,9 @@ main {
     position: relative;
 
     img {
-        width: 7.19rem;
+        width: 115px;
         position: absolute;
-        bottom: -0.69rem;
+        bottom: -11px;
         right: 0;
     }
 }
@@ -61,7 +61,7 @@ main {
     .firstDiv{
         h1 {
             font-family: 'ClashDisplay-Bold', sans-serif;
-            font-size: 2rem;
+            font-size: 32px;
             font-weight: 700;
             line-height: normal;
             padding-top: 58px;
@@ -69,7 +69,7 @@ main {
 
         p {
             font-family: Montserrat;
-            font-size: 0.8125rem;
+            font-size: 13px;
             font-style: normal;
             font-weight: 400;
             padding-top: 9px;
@@ -78,14 +78,14 @@ main {
         h2 {
             margin-top: 14.16px;
             font-family: 'Unica One', cursive;
-            font-size: 3rem;
+            font-size: 48px;
             font-style: normal;
             font-weight: 400;
             line-height: 133%;
 
             .diffFont {
                 font-family: 'Montserrat', sans-serif;
-                font-size: 0.875rem;
+                font-size: 14px;
             }
         }
     }
@@ -114,11 +114,11 @@ main {
     position: relative;
 
     img {
-        width: 1.125rem;
-        height: 1.625rem;
+        width: 18px;
+        height: 26px;
         position: absolute;
-        top: -1rem;
-        right: -0.2rem;
+        top: -16px;
+        right: -3.2px;
     }
 }
 
@@ -127,19 +127,20 @@ main {
     display: inline-flex;
     align-items: center;
     position: relative;
-    top: 0.3rem;
+    top: 4.8px;
 
     .chain {
-        width: 2rem;
-        height: 2rem;
+        width: 32px;
+        height: 32px;
     }
     
     .boom {
-        width: 1.4rem;
-        height: 1.4rem;
+        width: 22px;
+        height: 22px;
     }
 }
 
+//second Section
 .container2 {
     text-align: center;
 
@@ -164,6 +165,30 @@ main {
         font-weight: 700;
         line-height: 122.5%;
     }
+
+    .arrow {
+        margin-top: 10px;
+    }
+
+    .textdiv {
+        h3 {
+            margin-top: 22.15px;
+            font-family: 'ClashDisplay-Bold', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 133%;
+        }
+
+        p {
+            margin-top: 9px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27.5px;
+        }
+    }
 }
 
 .diffColor {
@@ -183,7 +208,7 @@ button {
 }
 
 .registerButton {
-    font-size: 0.875rem;
-    padding: 0.88rem 2.87rem;
+    font-size: 14px;
+    padding: 14.14px 46px;
     margin-top: 24px;
 }
