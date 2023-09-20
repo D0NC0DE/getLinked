@@ -140,6 +140,15 @@ main {
     }
 }
 
+.imagedis {
+    img {
+        width: 264px;
+        height: 257px;
+        display: block;
+        margin: 29px auto;
+    }
+}
+
 .diffColor {
     color: color.$secondColor;
 }
