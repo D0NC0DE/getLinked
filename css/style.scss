@@ -11,7 +11,7 @@
 body {
     color: color.$white;
     background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
-    background-size: 24.75rem 27.625rem;
+    background-size: 396px 442px;
     background-color: color.$bgColor;
 }
 
@@ -20,14 +20,14 @@ main {
         h1 {
             font-family: 'ClashDisplay-Bold', sans-serif;
             font-size: 0.9375rem;
-            padding: 1.88rem 3rem 0rem;
+            padding: 30px 48px 0;
         }
 
         hr {
             color: color.$white;
-            height: 0rem;
+            height: 0;
             opacity: 0.18;
-            margin-top: 1.44rem;
+            margin-top: 23px;
         }
 
         h2 {
@@ -37,15 +37,31 @@ main {
             font-weight: 700;
             line-height: normal;
             text-align: center;
-            padding-top: 1.94rem;
-            position: relative;
-
-            img {
-                position: absolute;
-                bottom: -0.69rem;
-                right: 2.62rem;
-            }
+            padding-top: 31px;
         }
+    }
+}
+
+#vectorFour {
+    position: relative;
+
+    img {
+        width: 7.19rem;
+        position: absolute;
+        bottom: -0.69rem;
+        right: 0;
+    }
+}
+
+#creativeOne {
+    position: relative;
+
+    img {
+        width: 1.125rem;
+        height: 1.625rem;
+        position: absolute;
+        top: -1rem;
+        right: -0.2rem;
     }
 }
 
@@ -56,7 +72,7 @@ main {
         font-size: 2rem;
         font-weight: 700;
         line-height: normal;
-        padding-top: 3.62rem;
+        padding-top: 58px;
     }
 }
 
