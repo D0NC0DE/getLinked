@@ -128,11 +128,28 @@ main header h2 {
   height: 1.4rem;
 }
 
-.imagedis img {
+.container2 {
+  text-align: center;
+}
+.container2 .imagedis {
+  position: relative;
+}
+.container2 .mainImage {
   width: 264px;
   height: 257px;
   display: block;
   margin: 29px auto;
+}
+.container2 .imgtext {
+  position: absolute;
+  top: 145px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 122.5%;
 }
 
 .diffColor {

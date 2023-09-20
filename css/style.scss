@@ -140,12 +140,29 @@ main {
     }
 }
 
-.imagedis {
-    img {
+.container2 {
+    text-align: center;
+
+    .imagedis {
+        position: relative;
+    } 
+    .mainImage {
         width: 264px;
         height: 257px;
         display: block;
         margin: 29px auto;
+    }
+
+    .imgtext {
+        position: absolute;
+        top: 145px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 122.5%;
     }
 }
 
