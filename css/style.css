@@ -26,16 +26,17 @@ body {
   background-color: #150E28;
 }
 
-main header h1 {
-  font-family: "ClashDisplay-Bold", sans-serif;
-  font-size: 15px;
-  padding: 30px 48px 0;
-}
-main header hr {
+hr {
   color: #fff;
   height: 0;
   opacity: 0.18;
   margin-top: 23px;
+}
+
+main header h1 {
+  font-family: "ClashDisplay-Bold", sans-serif;
+  font-size: 15px;
+  padding: 30px 48px 0;
 }
 main header h2 {
   font-family: "Montserrat", sans-serif;
@@ -163,7 +164,7 @@ main header h2 {
   line-height: 133%;
 }
 .container2 .textdiv p {
-  margin-top: 9px;
+  margin: 9px 40px 80px;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-style: normal;
