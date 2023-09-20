@@ -15,6 +15,7 @@ body {
     background-color: color.$bgColor;
 }
 
+//mobile settings
 main {
     header {
         h1 {
@@ -53,6 +54,28 @@ main {
     }
 }
 
+//First Section
+.container1 {
+    text-align: center;
+    .firstDiv{
+        h1 {
+            font-family: 'ClashDisplay-Bold', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: normal;
+            padding-top: 58px;
+        }
+
+        p {
+            font-family: Montserrat;
+            font-size: 0.8125rem;
+            font-style: normal;
+            font-weight: 400;
+            padding-top: 9px;
+        }
+    }
+}
+
 #creativeOne {
     position: relative;
 
@@ -65,27 +88,42 @@ main {
     }
 }
 
-.container1 {
-    text-align: center;
-    h1 {
-        font-family: 'ClashDisplay-Bold', sans-serif;
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: normal;
-        padding-top: 58px;
+
+.textimg {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 0.3rem;
+
+    .chain {
+        width: 2rem;
+        height: 2rem;
     }
-}
-
-.chain {
-    width: 2rem;
-    height: 2rem;
-}
-
-.boom {
-    width: 1.4rem;
-    height: 1.4rem;
+    
+    .boom {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
 }
 
 .diffColor {
     color: color.$secondColor;
+}
+
+//Button settings
+button {
+    border-style: none;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: color.$white;
+}
+
+.registerButton {
+    font-size: 0.875rem;
+    padding: 0.88rem 2.87rem;
+    margin-top: 24px;
 }
