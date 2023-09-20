@@ -63,6 +63,16 @@ main header h2 img {
   padding-top: 3.62rem;
 }
 
+.chain {
+  width: 2rem;
+  height: 2rem;
+}
+
+.boom {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
 .diffColor {
   color: #D434FE;
 }/*# sourceMappingURL=style.css.map */
