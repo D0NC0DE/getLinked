@@ -304,6 +304,7 @@ main header h2 {
 }
 
 .prizeContainer {
+  border: 1px solid #000;
   text-align: center;
   background: url(../images/pngs/purpleflare7.png) left top no-repeat, url(../images/pngs/purpleflare8.png) right bottom -37px no-repeat, url(../images/pngs/premiumphoto.png) left top no-repeat;
   background-size: 403px 444px, 249px 444px, 444px 848px;
@@ -400,11 +401,16 @@ main header h2 {
 }
 
 .partnersContainer {
+  background: url(../images/pngs/purpleFlare9.png) left top no-repeat;
+  background-size: 286px 364px;
+  background-blend-mode: hard-light;
+  background-color: #150E28;
   text-align: center;
+  margin-top: -96.5px;
 }
 .partnersContainer h3 {
   line-height: 27.5px;
-  margin-top: 41px;
+  padding-top: 137.5px;
 }
 .partnersContainer p {
   font-size: 12px;
@@ -430,6 +436,12 @@ main header h2 {
 .partnersContainer .partnerList img {
   align-self: center;
   justify-self: center;
+}
+@media (max-width: 320px) {
+  .partnersContainer .partnerList {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .diffColor {
