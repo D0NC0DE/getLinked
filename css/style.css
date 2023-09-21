@@ -291,6 +291,18 @@ main header h2 {
   height: auto;
 }
 
+.timelineContainer {
+  text-align: center;
+  margin-top: 80px;
+}
+.timelineContainer p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%;
+  margin: 21px 49px 56px;
+}
+
 .diffColor {
   color: #D434FE;
 }
