@@ -11,10 +11,8 @@
 
 body {
     color: color.$white;
-    background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
-    background-size: 396px 442px;
     background-color: color.$bgColor;
-    background-blend-mode: hard-light;
+    
 }
 
 hr {
@@ -26,6 +24,10 @@ hr {
 
 //mobile settings
 main {
+    background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
+    background-blend-mode: hard-light;
+    background-size: 396px 442px;
+    background-color: color.$bgColor;
     header {
         h1 {
             font-family: 'ClashDisplay-Bold', sans-serif;
@@ -98,6 +100,7 @@ main {
                     url(../images/svgs/purpleLensFlare2.svg) left top no-repeat;
         background-size: cover;
         background-blend-mode: luminosity;
+        background-color: color.$bgColor;
         position: relative;
 
         img {
@@ -199,6 +202,7 @@ main {
     background: url(../images/svgs/purpleLensFlare3.svg) left top no-repeat,
                 url(../images/svgs/purpleLensFlare4.svg) right bottom no-repeat;
     background-blend-mode: hard-light;
+    background-color: color.$bgColor;
     margin-top: -106px;
     
     .rulesImg {
@@ -230,8 +234,13 @@ main {
 }
 
 //Fourth section
-.container4 {
+.judgingContainer {
     text-align: center;
+    background: url(../images/pngs/purpleflare5.png) left top no-repeat,
+                url(../images/pngs/purpleflare6.png) right bottom no-repeat;
+    background-size: 404px 444px;
+    background-blend-mode: hard-light;
+    background-color: color.$bgColor;
     .judgingImg {
         padding-top: 74px;
         width: 332px;

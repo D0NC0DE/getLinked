@@ -21,10 +21,7 @@
 
 body {
   color: #fff;
-  background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
-  background-size: 396px 442px;
   background-color: #150E28;
-  background-blend-mode: hard-light;
 }
 
 hr {
@@ -34,6 +31,12 @@ hr {
   margin-top: 23px;
 }
 
+main {
+  background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
+  background-blend-mode: hard-light;
+  background-size: 396px 442px;
+  background-color: #150E28;
+}
 main header h1 {
   font-family: "ClashDisplay-Bold", sans-serif;
   font-size: 15px;
@@ -94,6 +97,7 @@ main header h2 {
   background: url(../images/svgs/metrix1.svg) left top no-repeat, url(../images/svgs/purpleLensFlare2.svg) left top no-repeat;
   background-size: cover;
   background-blend-mode: luminosity;
+  background-color: #150E28;
   position: relative;
 }
 .container1 .secondDiv img {
@@ -179,6 +183,7 @@ main header h2 {
   text-align: center;
   background: url(../images/svgs/purpleLensFlare3.svg) left top no-repeat, url(../images/svgs/purpleLensFlare4.svg) right bottom no-repeat;
   background-blend-mode: hard-light;
+  background-color: #150E28;
   margin-top: -106px;
 }
 .container3 .rulesImg {
@@ -204,39 +209,43 @@ main header h2 {
   line-height: 27.5px;
 }
 
-.container4 {
+.judgingContainer {
   text-align: center;
+  background: url(../images/pngs/purpleflare5.png) left top no-repeat, url(../images/pngs/purpleflare6.png) right bottom no-repeat;
+  background-size: 404px 444px;
+  background-blend-mode: hard-light;
+  background-color: #150E28;
 }
-.container4 .judgingImg {
+.judgingContainer .judgingImg {
   padding-top: 74px;
   width: 332px;
   max-width: 100%;
   height: auto;
 }
-.container4 .textdiv h3 {
+.judgingContainer .textdiv h3 {
   font-family: "ClashDisplay-Bold", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 133%;
 }
-.container4 .textdiv p {
+.judgingContainer .textdiv p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 173.5%;
 }
-.container4 .textdiv p:nth-of-type(1) {
+.judgingContainer .textdiv p:nth-of-type(1) {
   margin: 16px 45px 0;
 }
-.container4 .textdiv p:nth-of-type(2), .container4 .textdiv p:nth-of-type(3) {
+.judgingContainer .textdiv p:nth-of-type(2), .judgingContainer .textdiv p:nth-of-type(3) {
   margin: 20px 45px 0;
 }
-.container4 .textdiv p:nth-of-type(4), .container4 .textdiv p:nth-of-type(5) {
+.judgingContainer .textdiv p:nth-of-type(4), .judgingContainer .textdiv p:nth-of-type(5) {
   margin: 20px 38px 0;
 }
-.container4 button {
+.judgingContainer button {
   padding: 10px 12px;
   margin: 34px auto 58.65px;
 }
