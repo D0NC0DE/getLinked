@@ -144,8 +144,8 @@ main {
     }
 }
 
-//second Section
-.container2 {
+//overview Section
+.overviewContainer {
     text-align: center;
 
     .imagedis {
@@ -153,6 +153,7 @@ main {
     } 
     .mainImage {
         width: 264px;
+        aspect-ratio: auto 264 / 257;
         max-width: 100%;
         height: auto;
         display: block;
@@ -196,8 +197,8 @@ main {
     }
 }
 
-//Third section
-.container3 {
+//Rule section
+.ruleContainer {
     text-align: center;
     background: url(../images/svgs/purpleLensFlare3.svg) left top no-repeat,
                 url(../images/svgs/purpleLensFlare4.svg) right bottom no-repeat;
@@ -234,7 +235,7 @@ main {
     }
 }
 
-//Fourth section
+//Judging section
 .judgingContainer {
     text-align: center;
     background: url(../images/pngs/purpleflare5.png) left top no-repeat,
@@ -242,9 +243,11 @@ main {
     background-size: 404px 444px;
     background-blend-mode: hard-light;
     background-color: color.$bgColor;
+
     .judgingImg {
         padding-top: 74px;
         width: 332px;
+        aspect-ratio: auto 332 / 275;
         max-width: 100%;
         height: auto;
     }

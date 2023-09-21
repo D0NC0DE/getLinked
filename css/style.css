@@ -135,20 +135,21 @@ main header h2 {
   height: 22px;
 }
 
-.container2 {
+.overviewContainer {
   text-align: center;
 }
-.container2 .imagedis {
+.overviewContainer .imagedis {
   position: relative;
 }
-.container2 .mainImage {
+.overviewContainer .mainImage {
   width: 264px;
+  aspect-ratio: auto 264/257;
   max-width: 100%;
   height: auto;
   display: block;
   margin: 29px auto 0;
 }
-.container2 .imgtext {
+.overviewContainer .imgtext {
   position: absolute;
   top: 145px;
   left: 50%;
@@ -159,10 +160,10 @@ main header h2 {
   font-weight: 700;
   line-height: 122.5%;
 }
-.container2 .arrow {
+.overviewContainer .arrow {
   margin-top: 10px;
 }
-.container2 .textdiv h3 {
+.overviewContainer .textdiv h3 {
   margin-top: 22.15px;
   font-family: "ClashDisplay-Bold", sans-serif;
   font-size: 20px;
@@ -170,7 +171,7 @@ main header h2 {
   font-weight: 700;
   line-height: 133%;
 }
-.container2 .textdiv p {
+.overviewContainer .textdiv p {
   margin: 9px 40px 80px;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -179,21 +180,21 @@ main header h2 {
   line-height: 27.5px;
 }
 
-.container3 {
+.ruleContainer {
   text-align: center;
   background: url(../images/svgs/purpleLensFlare3.svg) left top no-repeat, url(../images/svgs/purpleLensFlare4.svg) right bottom no-repeat;
   background-blend-mode: hard-light;
   background-color: #150E28;
   margin-top: -106px;
 }
-.container3 .rulesImg {
+.ruleContainer .rulesImg {
   padding-top: 106px;
   width: 294px;
   aspect-ratio: auto 294/382;
   max-width: 100%;
   height: auto;
 }
-.container3 .textdiv h3 {
+.ruleContainer .textdiv h3 {
   margin-top: 10px;
   font-family: "ClashDisplay-Bold", sans-serif;
   font-size: 20px;
@@ -201,7 +202,7 @@ main header h2 {
   font-weight: 700;
   line-height: 133%;
 }
-.container3 .textdiv p {
+.ruleContainer .textdiv p {
   margin: 9px 45px 46px;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -220,6 +221,7 @@ main header h2 {
 .judgingContainer .judgingImg {
   padding-top: 74px;
   width: 332px;
+  aspect-ratio: auto 332/275;
   max-width: 100%;
   height: auto;
 }
