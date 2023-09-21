@@ -19,7 +19,6 @@ hr {
     color: color.$white;
     height: 0;
     opacity: 0.18;
-    margin-top: 23px;
 }
 
 h3 {
@@ -42,7 +41,7 @@ main {
         h1 {
             font-family: 'ClashDisplay-Bold', sans-serif;
             font-size: 15px;
-            padding: 30px 48px 0;
+            padding: 30px 48px 23px;
         }
 
         h2 {
@@ -322,6 +321,14 @@ main {
                 align-self: flex-end;
             }
         }
+    }
+
+    .faqImg {
+        margin: 86px auto 49px;
+        width: 327px;
+        aspect-ratio: auto 1 / 1;
+        max-width: 100%;
+        height: auto;
     }
 }
 
