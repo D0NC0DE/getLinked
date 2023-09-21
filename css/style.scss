@@ -490,6 +490,27 @@ main {
         margin: 5px 52px;
     }
 
+    .partnerList {
+        margin: 41px 30px 104px;
+        padding: 38.21px 47.14px;
+        border: 1px solid color.$secondColor;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 68.271px 2px 68.271px 2px 68.271px;
+        grid-template-rows: 30px 2px 30px;
+        justify-content: center;
+        gap: 7.5px 9px;
+        
+        .line {
+            background: color.$secondColor;
+        }
+
+        img {
+            align-self: center;
+            justify-self: center;
+        }
+    }
+
 }
 
 

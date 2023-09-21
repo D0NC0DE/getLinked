@@ -413,6 +413,24 @@ main header h2 {
   line-height: 20.5px;
   margin: 5px 52px;
 }
+.partnersContainer .partnerList {
+  margin: 41px 30px 104px;
+  padding: 38.21px 47.14px;
+  border: 1px solid #D434FE;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 68.271px 2px 68.271px 2px 68.271px;
+  grid-template-rows: 30px 2px 30px;
+  justify-content: center;
+  gap: 7.5px 9px;
+}
+.partnersContainer .partnerList .line {
+  background: #D434FE;
+}
+.partnersContainer .partnerList img {
+  align-self: center;
+  justify-self: center;
+}
 
 .diffColor {
   color: #D434FE;
