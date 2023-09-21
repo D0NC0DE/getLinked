@@ -150,7 +150,8 @@ main {
     } 
     .mainImage {
         width: 264px;
-        height: 257px;
+        max-width: 100%;
+        height: auto;
         display: block;
         margin: 29px auto 0;
     }
@@ -203,7 +204,8 @@ main {
     .rulesImg {
         padding-top: 106px;
         width: 294px;
-        height: 382px;
+        max-width: 100%;
+        height: auto;
     }
 
     .textdiv {
@@ -227,6 +229,15 @@ main {
     }
 }
 
+//Fourth section
+.container4 {
+    text-align: center;
+    .judgingImg {
+        width: 332px;
+        max-width: 100%;
+        height: auto;
+    }
+}
 
 
 

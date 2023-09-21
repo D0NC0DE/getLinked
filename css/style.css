@@ -139,7 +139,8 @@ main header h2 {
 }
 .container2 .mainImage {
   width: 264px;
-  height: 257px;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 29px auto 0;
 }
@@ -183,7 +184,8 @@ main header h2 {
 .container3 .rulesImg {
   padding-top: 106px;
   width: 294px;
-  height: 382px;
+  max-width: 100%;
+  height: auto;
 }
 .container3 .textdiv h3 {
   margin-top: 10px;
@@ -200,6 +202,15 @@ main header h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 27.5px;
+}
+
+.container4 {
+  text-align: center;
+}
+.container4 .judgingImg {
+  width: 332px;
+  max-width: 100%;
+  height: auto;
 }
 
 .diffColor {
