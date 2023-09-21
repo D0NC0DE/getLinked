@@ -488,6 +488,19 @@ main header h2 {
 .privacyContainer .policyStatement .diffFont {
   font-size: 13px;
 }
+.privacyContainer .policyStatement ul {
+  list-style-type: none;
+  padding-left: 22px;
+}
+.privacyContainer .policyStatement ul li {
+  list-style-image: url(../images/svgs/listterms.svg);
+  margin-top: 21px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 182.9%;
+}
 
 .diffColor {
   color: #D434FE;

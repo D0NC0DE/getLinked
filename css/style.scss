@@ -582,6 +582,21 @@ main {
             font-size: 13px;
         }
 
+        ul {
+            list-style-type: none;
+            padding-left: 22px;
+            
+            li {
+                list-style-image: url(../images/svgs/listterms.svg);
+                margin-top: 21px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 182.9%
+            }
+        }
+
     }
 }
 
