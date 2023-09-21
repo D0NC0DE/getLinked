@@ -162,7 +162,7 @@ main {
     .mainImage {
         width: 264px;
         aspect-ratio: auto 264 / 257;
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
         display: block;
         margin: 29px auto 0;
@@ -212,7 +212,7 @@ main {
         padding-top: 106px;
         width: 294px;
         aspect-ratio: auto 294 / 382;
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
@@ -245,7 +245,7 @@ main {
         padding-top: 74px;
         width: 332px;
         aspect-ratio: auto 332 / 275;
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
@@ -327,7 +327,7 @@ main {
         margin: 86px auto 49px;
         width: 327px;
         aspect-ratio: auto 1 / 1;
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 }
@@ -345,6 +345,135 @@ main {
         margin: 21px 49px 56px;
     }
 }
+
+
+
+// prize section
+.prizeContainer {
+    text-align: center;
+    background: url(../images/pngs/purpleflare7.png) left top no-repeat,
+                url(../images/pngs/purpleflare8.png) right bottom -37px no-repeat,
+                url(../images/pngs/premiumphoto.png) left top no-repeat;
+    background-size: 403px 444px, 249px 444px, 444px 848px;
+    background-blend-mode: hard-light, hard-light, color-burn;
+    background-color: color.$bgColor;
+
+    .prizeIntro{
+        h3 {
+            line-height: normal;
+            padding-top: 72px;
+        }
+
+        p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170.9%;
+            padding: 3px 57px;
+        }
+    }
+
+    .prize {
+        .prizecup {
+            margin: 40px auto 51px;
+            width: 321px;
+            aspect-ratio: auto 321 / 282;
+            max-width: 90%;
+            height: auto;
+        }
+    }
+
+    .priceLevels {
+        margin-top: 51px;
+        margin-bottom: 89px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 12px;
+    }
+
+    .firstPlace, .secondPlace, .thirdPlace {
+        p {
+            &:nth-of-type(1), &:nth-of-type(2) {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 216.4%;
+            }
+
+            &:nth-of-type(2) {
+                font-weight: 600;
+                margin-top: -8px;
+            }
+
+            &:nth-of-type(3) {
+                color: color.$secondColor;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 216.4%;
+            }
+        }
+    }
+
+    .secondPlace {
+        border-radius: 8px;
+        border: 1px solid color.$secondColor;
+        background: color.$lessPlace;
+        width: 90px;
+        height: 126px;
+        
+        img {
+            width: 76px;
+            height: 76px;
+            margin-top: -36px;
+        }
+    }
+
+    .firstPlace {
+        border-radius: 8px;
+        border: 1px solid color.$firstColor;
+        background: color.$firstPlace;
+        height: 147px;
+        width: 90px;
+
+        img {
+            position: relative;
+            right: 18px;
+            width: 126px;
+            height: 126px;
+            margin-top: -62px;
+        }
+
+        p {
+            &:nth-of-type(3) {
+                color: color.$firstColor;
+            }
+        }
+    }
+
+    .thirdPlace {
+        border-radius: 8px;
+        border: 1px solid color.$secondColor;
+        background: color.$lessPlace;
+        width: 90px;
+        height: 126px;
+
+        img {
+            width: 76px;
+            height: 76px;
+            margin-top: -31px;
+        }
+
+        p {
+            &:nth-of-type(3) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
 
 //--------------------
 
