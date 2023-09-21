@@ -22,6 +22,16 @@ hr {
     margin-top: 23px;
 }
 
+h3 {
+    font-family: 'ClashDisplay-Bold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+}
+
+p {font-family: 'Montserrat', sans-serif;}
+
 //mobile settings
 main {
     background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
@@ -71,7 +81,6 @@ main {
         }
 
         p {
-            font-family: 'Montserrat', sans-serif;
             font-size: 13px;
             font-style: normal;
             font-weight: 400;
@@ -179,16 +188,10 @@ main {
     .textdiv {
         h3 {
             margin-top: 22.15px;
-            font-family: 'ClashDisplay-Bold', sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 133%;
         }
 
         p {
             margin: 9px 40px 80px;
-            font-family: 'Montserrat', sans-serif;
             font-size: 13px;
             font-style: normal;
             font-weight: 400;
@@ -217,11 +220,6 @@ main {
     .textdiv {
         h3 {
             margin-top: 10px;
-            font-family: 'ClashDisplay-Bold', sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 133%;
         }
 
         p {
@@ -253,16 +251,7 @@ main {
     }
 
     .textdiv {
-        h3 {
-            font-family: 'ClashDisplay-Bold', sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 133%;
-        }
-
         p {
-            font-family: 'Montserrat', sans-serif;
             font-size: 12px;
             font-style: normal;
             font-weight: 400;
@@ -285,6 +274,54 @@ main {
     button {
         padding: 10px 12px;
         margin: 34px auto 58.65px;
+    }
+}
+
+//faq section
+.faqContainer {
+    text-align: center;
+
+    h3 {
+        margin-top: 60px;
+    }
+
+    #intro {
+        margin: 6px 48px 32.35px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px;
+    }
+
+    #varFontWeight {
+        font-weight: 700;
+    }
+
+    .questionsContainer {
+        margin: 0 46px;
+    }
+    
+    .questions{
+        display: flex;
+        justify-content: space-between;
+        gap: 16.65px;
+        text-align: left;
+        border-bottom: 1px solid color.$secondColor;
+
+        p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            padding-top: 13.34px;
+
+            &:nth-of-type(2) {
+                color: color.$secondColor;
+                font-size: 20px;
+                line-height: 27.5px;
+                align-self: flex-end;
+            }
+        }
     }
 }
 
