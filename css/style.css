@@ -401,12 +401,11 @@ main header h2 {
 }
 
 .partnersContainer {
-  background: url(../images/pngs/purpleFlare9.png) left top no-repeat;
+  background: url(../images/pngs/purpleFlare9.png) left top -96.5px no-repeat;
   background-size: 286px 364px;
   background-blend-mode: hard-light;
   background-color: #150E28;
   text-align: center;
-  margin-top: -96.5px;
 }
 .partnersContainer h3 {
   line-height: 27.5px;
