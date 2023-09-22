@@ -202,8 +202,9 @@ main {
 //Rule section
 .ruleContainer {
     text-align: center;
-    background: url(../images/svgs/purpleLensFlare3.svg) left top no-repeat,
-                url(../images/svgs/purpleLensFlare4.svg) right bottom no-repeat;
+    background: url(../images/pngs/purpleflare3.png) left top no-repeat,
+                url(../images/pngs/purpleFlare4.png) right bottom no-repeat;
+    background-size: 404px 435px, 252px 446px;
     background-blend-mode: hard-light;
     background-color: color.$bgColor;
     margin-top: -106px;
