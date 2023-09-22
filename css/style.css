@@ -594,6 +594,26 @@ footer .contactUs {
 footer .flexContain {
   display: flex;
   gap: 16px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+footer .flexContain p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.9%;
+}
+footer .phone {
+  margin-top: 8px;
+}
+footer .phone img {
+  height: 12px;
+  width: 12px;
+}
+footer .location img {
+  width: 13px;
+  height: 15px;
+  align-self: flex-start;
 }
 
 .diffColor {

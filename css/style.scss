@@ -716,6 +716,31 @@ footer {
     .flexContain {
         display: flex;
         gap: 16px;
+        align-items: center;
+        margin-bottom: 22px;
+
+        p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 157.9%;
+        }
+    }
+
+    .phone {
+        margin-top: 8px;
+        img {
+            height: 12px;
+            width: 12px;
+        }
+    }
+
+    .location {
+        img{
+            width: 13px;
+            height: 15px;
+            align-self: flex-start;
+        }
     }
 }
 
