@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 @font-face {
   font-family: "ClashDisplay-Variable";
   src: url("../fonts/ClashDisplay-Variable.woff2") format("woff2"), url("../fonts/ClashDisplay-Variable.woff") format("woff"), url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
@@ -25,6 +23,7 @@ body {
 }
 
 hr {
+  background-color: #fff;
   color: #fff;
   height: 0;
   opacity: 0.18;
@@ -73,6 +72,178 @@ main header h2 {
   right: 0;
 }
 
+.navBar {
+  position: absolute;
+  top: 34px;
+  right: 48px;
+  padding: 2px;
+  border-radius: 50%;
+  background: transparent;
+  transition: background-color 5s ease-in-out;
+  z-index: 48;
+}
+.navBar.active {
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.menu-icon {
+  width: 19px;
+  height: 13px;
+  cursor: pointer;
+  z-index: 50;
+  padding: 6px 3px;
+  border-radius: 50%;
+  background-color: #150E28;
+}
+.menu-icon .line-1 {
+  width: 50%;
+}
+.menu-icon .line-3 {
+  width: 50%;
+  float: right;
+}
+.menu-icon .line-2 {
+  width: 100%;
+}
+.menu-icon .line-1,
+.menu-icon .line-2,
+.menu-icon .line-3 {
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s ease-in-out;
+}
+.menu-icon .line-1 {
+  animation: animate-line-1-rev 0.7s ease-in-out;
+}
+.menu-icon .line-2 {
+  margin: 2px 0;
+  animation: animate-line-2-rev 0.7s ease-in-out;
+}
+.menu-icon .line-3 {
+  animation: animate-line-3-rev 0.7s ease-in-out;
+}
+.menu-icon:hover .line-1,
+.menu-icon:hover .line-2,
+.menu-icon:hover .line-3 {
+  background-color: #fff;
+}
+.menu-icon.active .line-1,
+.menu-icon.active .line-2,
+.menu-icon.active .line-3 {
+  background-color: #fff;
+}
+.menu-icon.active .line-1 {
+  animation: animate-line-1 0.7s cubic-bezier(0.3, 1, 0.7, 1) forwards;
+}
+.menu-icon.active .line-2 {
+  animation: animate-line-2 0.7s cubic-bezier(0.3, 1, 0.7, 1) forwards;
+}
+.menu-icon.active .line-3 {
+  animation: animate-line-3 0.7s cubic-bezier(0.3, 1, 0.7, 1) forwards;
+}
+
+.no-animation {
+  animation: none !important;
+}
+
+@keyframes animate-line-1 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0) rotate(0);
+  }
+  100% {
+    transform: translate3d(0, 5px, 0) rotate(45deg);
+    width: 19px;
+  }
+}
+@keyframes animate-line-2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes animate-line-3 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0, -5px, 0) rotate(0);
+  }
+  100% {
+    transform: translate3d(0%, -5px, 0) rotate(135deg);
+    width: 19px;
+  }
+}
+@keyframes animate-line-1-rev {
+  0% {
+    transform: translate3d(0, 5px, 0) rotate(45deg);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0) rotate(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+}
+@keyframes animate-line-2-rev {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes animate-line-3-rev {
+  0% {
+    transform: translate3d(-50%, -5px, 0) rotate(135deg);
+  }
+  50% {
+    transform: translate3d(0, -5px, 0) rotate(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+}
+nav {
+  display: none;
+  background-color: #150E28;
+  width: 348px;
+  max-width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+nav.active {
+  display: block;
+}
+nav p {
+  padding-bottom: 22px;
+}
+nav p:first-child {
+  padding-top: 100px;
+}
+nav p, nav button {
+  margin-left: 39px;
+}
+
 .container1 {
   text-align: center;
 }
@@ -102,21 +273,23 @@ main header h2 {
   font-size: 14px;
 }
 .container1 .secondDiv {
-  height: 362.395px;
-  max-width: 480px;
-  background: url(../images/svgs/metrix1.svg) left top no-repeat, url(../images/svgs/purpleLensFlare2.svg) left top no-repeat;
-  background-size: cover;
-  background-blend-mode: luminosity;
-  background-color: #150E28;
   position: relative;
 }
-.container1 .secondDiv img {
+.container1 .secondDiv img:first-child {
+  width: 420px;
+  aspect-ratio: auto 420/362;
   max-width: 100%;
-  height: 100%;
+  height: auto;
+}
+.container1 .secondDiv img:last-child {
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 338px;
+  aspect-ratio: auto 338/324;
+  max-width: 100%;
+  height: auto;
 }
 
 #creativeOne {
@@ -641,10 +814,148 @@ button {
   font-weight: 400;
   line-height: normal;
   color: #fff;
+  cursor: pointer;
 }
 
 .registerButton {
   font-size: 14px;
   padding: 14.14px 46px;
   margin-top: 24px;
+}
+
+@media (min-width: 1024px) {
+  hr {
+    height: 1px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  main {
+    background: url(../images/pngs/PurpleLensFlaredsk1.png) left top no-repeat, url(../images/pngs/PurpleLensFlare.png) right top no-repeat;
+    background-size: 1086px 836px, 951px 994px;
+    background-color: #150E28;
+  }
+  main header h1 {
+    font-size: 36px;
+    padding: 0;
+    margin-right: 0;
+  }
+  main header h2 {
+    font-size: 36px;
+    padding-top: 32px;
+    text-align: right;
+    padding-right: 55px;
+  }
+  #vectorFour {
+    position: relative;
+    z-index: 10;
+  }
+  #vectorFour img {
+    width: 253px;
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+  }
+  .navBar {
+    display: none;
+  }
+  nav {
+    position: static;
+    display: block;
+    background: transparent;
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+  }
+  nav p {
+    padding-bottom: 0;
+  }
+  nav p:first-child {
+    padding-top: 0;
+  }
+  nav p, nav button {
+    margin-left: 0;
+    font-size: 16px;
+  }
+  nav .registerButton {
+    margin-top: 0;
+  }
+  .tophead {
+    display: flex;
+    height: 141px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .container1 .firstDiv {
+    padding-left: 60px;
+    text-align: left;
+    grid-area: 1/1/1/18;
+    z-index: 5;
+  }
+  .container1 .firstDiv h1 {
+    font-size: 80px;
+    padding-top: 123px;
+  }
+  .container1 .firstDiv p {
+    font-size: 20px;
+    padding-bottom: 41px;
+  }
+  .container1 .firstDiv h2 {
+    font-size: 64px;
+    padding-top: 77px;
+    padding-bottom: 95px;
+  }
+  .container1 .secondDiv {
+    grid-area: 1/13/1/26;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  .container1 .secondDiv img:first-child {
+    width: 828px;
+    aspect-ratio: auto 828/715;
+    max-width: 100%;
+    height: auto;
+  }
+  .container1 .secondDiv img:last-child {
+    width: 667px;
+    aspect-ratio: auto 667/641;
+    max-width: 100%;
+    height: auto;
+  }
+  #creativeOne img {
+    width: 53px;
+    height: 73px;
+    position: absolute;
+    top: -46px;
+    right: -12px;
+  }
+  .textimg {
+    top: 18px;
+  }
+  .textimg .chain {
+    width: 86px;
+    height: 86px;
+  }
+  .textimg .boom {
+    width: 58px;
+    height: 58px;
+  }
+}
+@media (min-width: 1280px) {
+  .tophead {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+  .firstDiv {
+    padding-left: 128px;
+  }
 }/*# sourceMappingURL=style.css.map */
