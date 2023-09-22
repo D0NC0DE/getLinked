@@ -428,6 +428,7 @@ main header h2 {
   grid-template-rows: 30px 2px 30px;
   justify-content: center;
   gap: 7.5px 9px;
+  position: relative;
 }
 .partnersContainer .partnerList .line {
   background: #D434FE;
@@ -445,9 +446,14 @@ main header h2 {
 
 .privacyContainer {
   text-align: center;
+  background: url(../images/pngs/purpleflare10.png) right top no-repeat, url(../images/pngs/purpleFlare11.png) left top 723px no-repeat;
+  background-size: 220px 372px, 285px 366px;
+  background-blend-mode: hard-light;
+  background-color: #150E28;
+  margin-top: -195px;
 }
 .privacyContainer h3 {
-  padding-top: 71px;
+  padding-top: 266px;
 }
 .privacyContainer p:nth-of-type(1) {
   color: rgba(255, 255, 255, 0.75);
@@ -464,10 +470,11 @@ main header h2 {
   line-height: 188.4%;
 }
 .privacyContainer .policyStatement {
-  margin: 30px 46px;
+  margin: 30px 46px 0px;
   padding: 45px 12px;
   border-radius: 5px;
   border: 1px solid #D434FE;
+  background: rgba(217, 217, 217, 0.03);
 }
 .privacyContainer .policyStatement p {
   color: #FFF;
@@ -503,6 +510,18 @@ main header h2 {
 .privacyContainer .policyStatement button {
   padding: 10px 12px;
   margin-top: 28px;
+}
+.privacyContainer .privacyImg {
+  margin-top: 48px;
+  background: url(../images/pngs/guard.png) center top no-repeat;
+  background-size: 249px 311px;
+}
+.privacyContainer .privacyImg img {
+  width: 262px;
+  aspect-ratio: auto 262/351;
+  height: auto;
+  max-width: 100%;
+  padding-top: 96px;
 }
 
 .diffColor {
