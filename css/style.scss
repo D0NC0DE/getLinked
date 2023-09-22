@@ -987,7 +987,7 @@ button {
     margin-top: 24px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     hr {
         height: 1px;
     }
@@ -1065,8 +1065,8 @@ button {
         height: 141px;
         justify-content: space-between;
         align-items: center;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 128px;
+        margin-right: 128px;
     }
 
     .container1 {
@@ -1075,7 +1075,7 @@ button {
         grid-template-rows: 1fr;
 
         .firstDiv {
-            padding-left: 60px;
+            margin-left: 128px;
             text-align: left;
             grid-area: 1 / 1 / 1 / 18;
             z-index: 5;
@@ -1144,19 +1144,4 @@ button {
             height: 58px;
         }
     }
-}
-
-
-
-
-@media (min-width: 1280px) {
-    .tophead {
-        margin-left: 128px;
-        margin-right: 128px;
-    }
-
-    .firstDiv {
-        padding-left: 128px;
-    }
-    
 }
