@@ -615,6 +615,12 @@ footer .location img {
   height: 15px;
   align-self: flex-start;
 }
+footer .attributes {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 12px;
+  font-weight: 400;
+}
 
 .diffColor {
   color: #D434FE;
