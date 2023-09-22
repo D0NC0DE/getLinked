@@ -588,6 +588,13 @@ footer .followUs img:nth-of-type(3) {
   width: 10.5px;
   height: 20px;
 }
+footer .contactUs {
+  margin-top: 61px;
+}
+footer .flexContain {
+  display: flex;
+  gap: 16px;
+}
 
 .diffColor {
   color: #D434FE;
