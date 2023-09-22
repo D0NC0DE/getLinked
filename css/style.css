@@ -567,6 +567,27 @@ footer .useLinks h3 {
 footer .useLinks p {
   margin-bottom: 12px;
 }
+footer .followUs {
+  display: flex;
+  gap: 16px;
+  height: 24px;
+  align-items: center;
+}
+footer .followUs p {
+  align-self: baseline;
+}
+footer .followUs img:nth-of-type(1), footer .followUs img:nth-of-type(4) {
+  width: 24px;
+  height: 24px;
+}
+footer .followUs img:nth-of-type(2) {
+  width: 19px;
+  height: 17px;
+}
+footer .followUs img:nth-of-type(3) {
+  width: 10.5px;
+  height: 20px;
+}
 
 .diffColor {
   color: #D434FE;
