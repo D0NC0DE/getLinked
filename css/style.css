@@ -1457,4 +1457,7 @@ button {
   .overviewContainer .imgtext {
     font-size: 24px;
   }
+}
+.notAllowed {
+  cursor: not-allowed;
 }/*# sourceMappingURL=style.css.map */
