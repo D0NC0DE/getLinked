@@ -493,7 +493,7 @@ nav p, nav button {
   text-align: center;
   margin-top: 80px;
 }
-.timelineContainer p {
+.timelineContainer .timelineIntro {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -501,6 +501,55 @@ nav p, nav button {
   width: 346px;
   max-width: 90%;
   margin: 21px auto 56px;
+}
+.timelineContainer .timeline {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 27px;
+}
+.timelineContainer .eachEvent {
+  display: grid;
+  grid-template-columns: 19.32px auto;
+  grid-template-rows: 77px 19.32px;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  row-gap: 4.68px;
+}
+.timelineContainer .eachEvent .vertBar {
+  width: 2px;
+  height: 77px;
+  justify-self: center;
+  background-color: #D434FE;
+}
+.timelineContainer .eachEvent h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.timelineContainer .eachEvent p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%;
+}
+.timelineContainer .eachEvent .timelineNum {
+  width: 19.32px;
+  height: 19.32px;
+  text-align: center;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+  border-radius: 50%;
+}
+.timelineContainer .eachEvent .timelineDate {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: center;
 }
 
 .prizeContainer {

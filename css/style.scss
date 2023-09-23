@@ -562,7 +562,7 @@ nav {
     text-align: center;
     margin-top: 80px;
 
-    p {
+    .timelineIntro {
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -570,6 +570,61 @@ nav {
         width: 346px;
         max-width: 90%;
         margin: 21px auto 56px;
+    }
+
+    .timeline {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 27px;
+    }
+
+    .eachEvent {
+        display: grid;
+        grid-template-columns: 19.32px auto;
+        grid-template-rows: 77px 19.32px;
+        column-gap: 8px;
+        row-gap: 4.68px;
+
+        .vertBar {
+            width: 2px;
+            height: 77px;
+            justify-self: center;
+            background-color: color.$secondColor;
+        }
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 13px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170.9%;
+        }
+
+        .timelineNum {
+            width: 19.32px;
+            height: 19.32px;
+            text-align: center;
+            background: color.$secgradient;
+            border-radius: 50%;
+        }
+
+        .timelineDate {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            align-self: center;
+        }
     }
 }
 
