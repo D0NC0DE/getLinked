@@ -740,6 +740,16 @@ nav {
         img {
             align-self: center;
             justify-self: center;
+
+            &:nth-of-type(5) {
+                width: 54px;
+                height: 21px;
+            }
+
+            &:nth-of-type(6) {
+                width: 69px;
+                height: 21px;
+            }
         }
     }
 
@@ -1325,13 +1335,18 @@ button {
     .prizeContainer{
         text-align: left;
         background-size: 1037px 948px, 404px 959px, cover;
+        position: relative;
 
         .prizeIntro{
+            position: absolute;
+            right: 270px;
+            z-index: 10;
             h3 {
                 padding-top: 72px;
             }
     
             p {
+                width: 401px;
                 font-size: 16px;
                 padding: 16px 0px;
             }
@@ -1341,8 +1356,7 @@ button {
             display: grid;
             grid-template-columns: 1fr 1fr;
             align-items: flex-end;
-            padding-right: 60px;
-            padding-bottom: 95px;
+            padding: 180px 60px 95px;
     
             .prizecup {
                 width: 548px;
@@ -1423,6 +1437,54 @@ button {
             }
         }
     }
+
+
+    .partnersContainer {
+        background-size: 800px 364px;
+    
+        p {
+            font-size: 14px;
+            line-height: 27.5px;
+            margin: 22px auto 65px;
+            width: 452px;
+        }
+    
+        .partnerList {
+            grid-template-columns: 257px 4px 257px 4px 257px;
+            grid-template-rows: 112px 4px 112px;
+           img {
+            &:nth-of-type(1) {
+                width: 120px;
+                height: 114px;
+            }
+
+            &:nth-of-type(2) {
+                width: 213px;
+                height: 40px;
+            }
+
+            &:nth-of-type(3) {
+                width: 132px;
+                height: 107px;
+            }
+
+            &:nth-of-type(4) {
+                width: 147px;
+                height: 110px;
+            }
+
+            &:nth-of-type(5) {
+                width: 204px;
+                height: 21px;
+            }
+
+            &:nth-of-type(6) {
+                width: 231px;
+                height: 21px;
+            }
+           }
+        }
+    }    
 }
 
 
