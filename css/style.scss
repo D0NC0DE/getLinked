@@ -1485,6 +1485,80 @@ button {
            }
         }
     }    
+
+
+    .privacyContainer {
+        background-position: right top, left bottom -181px;
+        background-size: 519px 948px, 519px 948px;
+        text-align: left;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 93px 123px;
+        margin-bottom: 0;
+
+        p {
+            &:nth-of-type(1) {
+                font-size: 14px;
+            }
+    
+            &:nth-of-type(2) {
+                margin: 28px 0px;
+                font-size: 14px;
+            }
+        }
+    
+        .policyStatement {
+            text-align: center;
+            margin: 69px 0px 0px;
+            padding: 59px 72px;
+            border-radius: 5px;
+            border: 1px solid color.$secondColor;
+            background: rgba(217, 217, 217, 0.03);
+            max-width: 569px;
+            
+            p {
+                color: #FFF;
+                font-size: 14px;
+                text-align: left;
+            }
+    
+            h4 {
+                font-size: 16px;
+                margin-top: 24px;
+                text-align: left;
+            }
+    
+            .diffFont {
+                font-size: 16px;
+            }
+    
+            ul {
+                list-style-image: url(../images/svgs/listterms.svg);
+                text-align: left;
+                
+                
+                li {
+                    margin-top: 18px;
+                    font-size: 14px;
+                    padding-left: 14px;
+                }
+            }
+        }
+    
+        .privacyImg {
+            background-size: 530px 648px;
+            position: relative;
+            z-index: 10;
+            margin-top: 48px;
+    
+            img {
+                width: 559px;
+                height: auto;
+            }
+        }
+    }
 }
 
 
