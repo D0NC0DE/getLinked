@@ -491,18 +491,7 @@ nav {
             font-style: normal;
             font-weight: 400;
             line-height: 173.5%;
-
-            &:nth-of-type(1) {
-                margin: 16px 45px 0;
-            }
-
-            &:nth-of-type(2), &:nth-of-type(3) {
-                margin: 20px 45px 0;
-            }
-
-            &:nth-of-type(4), &:nth-of-type(5) {
-                margin: 20px 38px 0;
-            }
+            margin: 16px 45px 0;
         }
     }
 
@@ -591,7 +580,7 @@ nav {
     background: url(../images/pngs/purpleflare7.png) left top no-repeat,
                 url(../images/pngs/purpleflare8.png) right bottom -37px no-repeat,
                 url(../images/pngs/premiumphoto.png) left top no-repeat;
-    background-size: 403px 444px, 249px 444px, 444px 848px;
+    background-size: 403px 444px, 249px 444px, cover;
     background-blend-mode: hard-light, hard-light, color-burn;
     background-color: color.$bgColor;
 
@@ -1273,6 +1262,56 @@ button {
                 margin: 0;
             }
         }
+    }
+
+    .judgingContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: url(../images/pngs/purpleflare5.png) left top no-repeat,
+                    url(../images/pngs/purpleFlare4.png) right top -579px no-repeat,
+                    url(../images/pngs/purpleflare6.png) right bottom -538px no-repeat;
+        background-size: 1037px 948px, 404px 959px;
+        background-color: color.$bgColor;
+        gap: 53px;
+        align-items: center;
+        padding: 78px 66px;
+        position: relative;
+
+        .judgingImg {
+            padding: 0;
+            width: 710px;;
+        }
+
+        .textdiv {
+            text-align: left;
+
+            
+            p {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .faqContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        align-items: center;
+        padding-left: 215px;
+        padding-right: 101px;
+
+        h3 {
+            margin: 0;
+        }
+
+        .faqImg {
+            width: 741px;
+        }
+    }
+
+    .prize {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
