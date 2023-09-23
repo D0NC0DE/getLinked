@@ -1284,6 +1284,18 @@ button {
     width: 559px;
     height: auto;
   }
+  footer .footerContainer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 146px;
+    justify-content: space-between;
+  }
+  footer .useLinks {
+    margin-top: 0;
+  }
+  footer .contactUs {
+    margin-top: 0;
+  }
 }
 @media only screen and (min-width: 1250px) {
   .tophead {

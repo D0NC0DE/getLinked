@@ -1559,6 +1559,23 @@ button {
             }
         }
     }
+
+    footer {
+        .footerContainer {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 146px; 
+            justify-content: space-between;
+        }
+
+        .useLinks {
+            margin-top: 0;
+        }
+
+        .contactUs {
+            margin-top: 0;
+        }
+    }
 }
 
 
