@@ -1260,6 +1260,7 @@ button {
             grid-area: 1 / 1 / 1 / 2;
             p {
                 margin: 0;
+                font-size: 14px;
             }
         }
     }
@@ -1288,6 +1289,7 @@ button {
             
             p {
                 margin-left: 0;
+                font-size: 16px;
             }
         }
     }
@@ -1302,16 +1304,124 @@ button {
 
         h3 {
             margin: 0;
+            text-align: left;
         }
 
         .faqImg {
             width: 741px;
         }
+
+        #intro {
+            font-size: 14px;
+            text-align: left;
+            margin-left: 0;
+        }
+        
+        .questionsContainer {
+            margin: 0;
+        }
     }
 
-    .prize {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .prizeContainer{
+        text-align: left;
+        background-size: 1037px 948px, 404px 959px, cover;
+
+        .prizeIntro{
+            h3 {
+                padding-top: 72px;
+            }
+    
+            p {
+                font-size: 16px;
+                padding: 16px 0px;
+            }
+        }
+    
+        .prize {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: flex-end;
+            padding-right: 60px;
+            padding-bottom: 95px;
+    
+            .prizecup {
+                width: 548px;
+            }
+        }
+
+        .priceLevels {
+            gap: 26px;
+            padding-bottom: 0;
+        }
+
+        .firstPlace, .secondPlace, .thirdPlace {
+            p {
+                &:nth-of-type(1) {
+                    font-size: 36px;
+                    line-height: normal;
+                }
+
+                &:nth-of-type(2) {
+                    font-size: 24px;
+                }
+    
+                &:nth-of-type(3) {
+                    color: color.$secondColor;
+                    font-size: 32px;
+                }
+            }
+        }
+    
+        .secondPlace {
+            width: 212px;
+            height: 296px;
+            
+            img {
+                width: 180px;
+                height: 180px;
+                margin-top: -84px;
+            }
+        }
+    
+        .firstPlace {
+            height: 347px;
+            width: 212px;
+    
+            img {
+                position: relative;
+                right: 45px;
+                width: 296px;
+                height: 296px;
+                margin-top: -147px;
+            }
+
+            p {
+                &:nth-of-type(1) {
+                    font-size: 40px;
+                }
+
+                &:nth-of-type(3) {
+                    color: color.$firstColor;
+                }
+            }
+        }
+    
+        .thirdPlace {
+            width: 212px;
+            height: 296px;
+    
+            img {
+                width: 180px;
+                height: 180px;
+                margin-top: -73px;
+            }
+    
+            p {
+                &:nth-of-type(3) {
+                    font-size: 32px;
+                }
+            }
+        }
     }
 }
 

@@ -1053,6 +1053,7 @@ button {
   }
   .ruleContainer .textdiv p {
     margin: 0;
+    font-size: 14px;
   }
   .judgingContainer {
     display: grid;
@@ -1074,6 +1075,7 @@ button {
   }
   .judgingContainer .textdiv p {
     margin-left: 0;
+    font-size: 16px;
   }
   .faqContainer {
     display: grid;
@@ -1085,13 +1087,92 @@ button {
   }
   .faqContainer h3 {
     margin: 0;
+    text-align: left;
   }
   .faqContainer .faqImg {
     width: 741px;
   }
-  .prize {
+  .faqContainer #intro {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 0;
+  }
+  .faqContainer .questionsContainer {
+    margin: 0;
+  }
+  .prizeContainer {
+    text-align: left;
+    background-size: 1037px 948px, 404px 959px, cover;
+  }
+  .prizeContainer .prizeIntro h3 {
+    padding-top: 72px;
+  }
+  .prizeContainer .prizeIntro p {
+    font-size: 16px;
+    padding: 16px 0px;
+  }
+  .prizeContainer .prize {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+    padding-right: 60px;
+    padding-bottom: 95px;
+  }
+  .prizeContainer .prize .prizecup {
+    width: 548px;
+  }
+  .prizeContainer .priceLevels {
+    gap: 26px;
+    padding-bottom: 0;
+  }
+  .prizeContainer .firstPlace p:nth-of-type(1), .prizeContainer .secondPlace p:nth-of-type(1), .prizeContainer .thirdPlace p:nth-of-type(1) {
+    font-size: 36px;
+    line-height: normal;
+  }
+  .prizeContainer .firstPlace p:nth-of-type(2), .prizeContainer .secondPlace p:nth-of-type(2), .prizeContainer .thirdPlace p:nth-of-type(2) {
+    font-size: 24px;
+  }
+  .prizeContainer .firstPlace p:nth-of-type(3), .prizeContainer .secondPlace p:nth-of-type(3), .prizeContainer .thirdPlace p:nth-of-type(3) {
+    color: #D434FE;
+    font-size: 32px;
+  }
+  .prizeContainer .secondPlace {
+    width: 212px;
+    height: 296px;
+  }
+  .prizeContainer .secondPlace img {
+    width: 180px;
+    height: 180px;
+    margin-top: -84px;
+  }
+  .prizeContainer .firstPlace {
+    height: 347px;
+    width: 212px;
+  }
+  .prizeContainer .firstPlace img {
+    position: relative;
+    right: 45px;
+    width: 296px;
+    height: 296px;
+    margin-top: -147px;
+  }
+  .prizeContainer .firstPlace p:nth-of-type(1) {
+    font-size: 40px;
+  }
+  .prizeContainer .firstPlace p:nth-of-type(3) {
+    color: #903AFF;
+  }
+  .prizeContainer .thirdPlace {
+    width: 212px;
+    height: 296px;
+  }
+  .prizeContainer .thirdPlace img {
+    width: 180px;
+    height: 180px;
+    margin-top: -73px;
+  }
+  .prizeContainer .thirdPlace p:nth-of-type(3) {
+    font-size: 32px;
   }
 }
 @media only screen and (min-width: 1250px) {
