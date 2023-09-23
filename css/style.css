@@ -498,7 +498,9 @@ nav p, nav button {
   font-style: normal;
   font-weight: 400;
   line-height: 172.4%;
-  margin: 21px 49px 56px;
+  width: 346px;
+  max-width: 90%;
+  margin: 21px auto 56px;
 }
 
 .prizeContainer {
