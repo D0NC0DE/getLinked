@@ -508,11 +508,14 @@ nav p, nav button {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: 27px;
+  width: 346px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 .timelineContainer .eachEvent {
   display: grid;
   grid-template-columns: 19.32px auto;
-  grid-template-rows: 77px 19.32px;
+  grid-template-rows: auto 19.32px;
   -moz-column-gap: 8px;
        column-gap: 8px;
   row-gap: 4.68px;
@@ -527,7 +530,7 @@ nav p, nav button {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 700;
-  margin-bottom: 13px;
+  margin-bottom: 5px;
 }
 .timelineContainer .eachEvent p {
   font-family: "Montserrat", sans-serif;
