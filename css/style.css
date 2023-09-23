@@ -41,6 +41,35 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.star {
+  position: absolute;
+}
+
+.first {
+  width: 10px;
+  height: 10px;
+}
+
+.second {
+  width: 6px;
+  height: 8px;
+}
+
+#firstloc {
+  top: 36px;
+  left: 126px;
+}
+
+#secondloc {
+  top: 36px;
+  left: 327px;
+}
+
+#thirdloc {
+  bottom: 110px;
+  right: 91px;
+}
+
 main {
   background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
   background-blend-mode: hard-light;
@@ -246,6 +275,9 @@ nav p, nav button {
 
 .container1 {
   text-align: center;
+}
+.container1 .firstDiv {
+  position: relative;
 }
 .container1 .firstDiv h1 {
   font-family: "ClashDisplay-Bold", sans-serif;
@@ -823,12 +855,32 @@ button {
   margin-top: 24px;
 }
 
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
   hr {
     height: 1px;
   }
   h3 {
     font-size: 32px;
+  }
+  .first {
+    width: 26px;
+    height: 32px;
+  }
+  .second {
+    width: 26px;
+    height: 32px;
+  }
+  #firstloc {
+    top: 0px;
+    left: 60px;
+  }
+  #secondloc {
+    top: 46px;
+    left: 700px;
+  }
+  #thirdloc {
+    bottom: 200px;
+    left: 400px;
   }
   main {
     background: url(../images/pngs/PurpleLensFlaredsk1.png) left top no-repeat, url(../images/pngs/PurpleLensFlare.png) right top no-repeat;
@@ -887,36 +939,42 @@ button {
     height: 141px;
     justify-content: space-between;
     align-items: center;
-    margin-left: 128px;
-    margin-right: 128px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   .container1 {
+    background: url(../images/pngs/metrix.png) right top no-repeat;
+    background-size: 1164px 801px;
+    background-blend-mode: luminosity;
+    height: 600px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(25, 1fr);
     grid-template-rows: 1fr;
   }
   .container1 .firstDiv {
-    margin-left: 128px;
+    margin-left: 60px;
     text-align: left;
     grid-area: 1/1/1/18;
     z-index: 5;
   }
   .container1 .firstDiv h1 {
-    font-size: 80px;
+    font-size: 64px;
     padding-top: 123px;
   }
   .container1 .firstDiv p {
     font-size: 20px;
-    padding-bottom: 41px;
+    padding-bottom: 17px;
   }
   .container1 .firstDiv h2 {
-    font-size: 64px;
-    padding-top: 77px;
-    padding-bottom: 95px;
+    font-size: 48px;
+    padding-top: 30px;
+    padding-bottom: 75px;
   }
   .container1 .secondDiv {
     grid-area: 1/13/1/26;
-    margin-top: 50px;
+    margin-top: 130px;
     overflow: hidden;
   }
   .container1 .secondDiv img:first-child {
@@ -948,5 +1006,30 @@ button {
   .textimg .boom {
     width: 58px;
     height: 58px;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .tophead {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+  .container1 {
+    height: 700px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: hidden;
+  }
+  .container1 .firstDiv {
+    margin-left: 128px;
+  }
+  .container1 .firstDiv h1 {
+    font-size: 80px;
+  }
+  .container1 .firstDiv h2 {
+    font-size: 64px;
+    padding-top: 77px;
+    padding-bottom: 95px;
+  }
+  .container1 .secondDiv {
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
