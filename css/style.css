@@ -366,9 +366,9 @@ nav p, nav button {
 }
 .overviewContainer .imgtext {
   position: absolute;
-  top: 145px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -1007,6 +1007,61 @@ button {
     width: 58px;
     height: 58px;
   }
+  .overviewContainer {
+    text-align: left;
+    display: grid;
+    gap: 55px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 31px 74px 39px 115px;
+  }
+  .overviewContainer .mainImage {
+    width: 490px;
+    height: auto;
+    margin: auto;
+  }
+  .overviewContainer .imgtext {
+    font-size: 20px;
+    text-align: center;
+  }
+  .overviewContainer .arrow {
+    position: absolute;
+    bottom: 0px;
+    right: -5%;
+    width: 49.43px;
+    max-width: 100%;
+    height: auto;
+  }
+  .overviewContainer .textdiv p {
+    margin: 0;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .ruleContainer {
+    background-position: left top, right top 291px;
+    background-size: 1037px 948px, 404px 959px;
+    margin-top: -252px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+    padding: 252px 100px 0px 181px;
+  }
+  .ruleContainer .rulesImg {
+    padding-top: 0;
+    grid-area: 1/3/1/2;
+    width: 664px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+  .ruleContainer .textdiv {
+    text-align: left;
+    grid-area: 1/1/1/2;
+  }
+  .ruleContainer .textdiv p {
+    margin: 0;
+  }
 }
 @media only screen and (min-width: 1250px) {
   .tophead {
@@ -1031,5 +1086,12 @@ button {
   }
   .container1 .secondDiv {
     margin-top: 50px;
+  }
+  .overviewContainer {
+    gap: 109px;
+    padding: 62px 148px 78px 230px;
+  }
+  .overviewContainer .imgtext {
+    font-size: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
