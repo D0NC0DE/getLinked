@@ -27,6 +27,8 @@ hr {
   color: #fff;
   height: 0;
   opacity: 0.18;
+  position: relative;
+  z-index: 2;
 }
 
 h3 {
@@ -56,29 +58,50 @@ a:hover {
   position: absolute;
 }
 
-.first {
-  width: 10px;
-  height: 10px;
-}
-
-.second {
+.second, .third {
   width: 6px;
   height: 8px;
 }
 
-#firstloc {
+.first {
+  width: 10px;
+  height: 10px;
   top: 36px;
   left: 126px;
 }
 
-#secondloc {
+.second {
   top: 36px;
-  left: 327px;
+  right: 63px;
 }
 
-#thirdloc {
+.third {
   bottom: 110px;
   right: 91px;
+}
+
+.fourth {
+  width: 11px;
+  height: 13px;
+  top: 112px;
+  left: 68px;
+}
+
+.fifth {
+  width: 8px;
+  height: 10px;
+  top: 340px;
+  right: 52px;
+}
+
+.sixth, .eigth {
+  width: 10px;
+  height: 12px;
+}
+
+.sixth {
+  top: 185px;
+  left: 43px;
 }
 
 main {
@@ -362,7 +385,9 @@ nav p, nav button {
 }
 
 .overviewContainer {
+  position: relative;
   text-align: center;
+  z-index: 1;
 }
 .overviewContainer .imagedis {
   position: relative;
@@ -389,6 +414,9 @@ nav p, nav button {
 .overviewContainer .arrow {
   margin-top: 10px;
 }
+.overviewContainer .textdiv {
+  z-index: 5;
+}
 .overviewContainer .textdiv h3 {
   margin-top: 22.15px;
 }
@@ -401,6 +429,7 @@ nav p, nav button {
 }
 
 .ruleContainer {
+  position: relative;
   text-align: center;
   background: url(../images/pngs/purpleflare3.png) left top no-repeat, url(../images/pngs/purpleFlare4.png) right bottom no-repeat;
   background-size: 404px 435px, 252px 446px;
@@ -937,25 +966,33 @@ button {
   h3 {
     font-size: 32px;
   }
+  .first, .second, .third {
+    width: 26px;
+    height: 32px;
+  }
   .first {
-    width: 26px;
-    height: 32px;
-  }
-  .second {
-    width: 26px;
-    height: 32px;
-  }
-  #firstloc {
     top: 0px;
     left: 60px;
   }
-  #secondloc {
+  .second {
     top: 46px;
     left: 700px;
   }
-  #thirdloc {
+  .third {
     bottom: 200px;
     left: 400px;
+  }
+  .fourth {
+    width: 21px;
+    height: 25px;
+    top: 223px;
+    right: 200px;
+  }
+  .fifth {
+    width: 30px;
+    height: 36px;
+    top: 216px;
+    right: 170px;
   }
   main {
     background: url(../images/pngs/PurpleLensFlaredsk1.png) left top no-repeat, url(../images/pngs/PurpleLensFlare.png) right top no-repeat;
