@@ -104,6 +104,18 @@ a:hover {
     left: 43px;
 }
 
+.seventh {
+    width: 12px;
+    height: 14px;
+    top: 442px;
+    right: 42px;
+}
+
+.eigth {
+    bottom: -15px;
+    left: 108px;
+}
+
 //mobile settings
 main {
     background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
@@ -1138,7 +1150,7 @@ button {
         font-size: 32px;
     }
 
-    .first, .second, .third {
+    .first, .second, .third, .sixth, .seventh {
         width: 26px;
         height: 32px;
     }
@@ -1170,6 +1182,16 @@ button {
         height: 36px;
         top: 216px;
         right: 170px;
+    }
+
+    .sixth {
+        top: 700px;
+        left: 50%;
+    }
+
+    .seventh {
+        top: 368px;
+        left: 440px;
     }
 
     main {

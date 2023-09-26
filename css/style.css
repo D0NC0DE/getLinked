@@ -104,6 +104,18 @@ a:hover {
   left: 43px;
 }
 
+.seventh {
+  width: 12px;
+  height: 14px;
+  top: 442px;
+  right: 42px;
+}
+
+.eigth {
+  bottom: -15px;
+  left: 108px;
+}
+
 main {
   background: url(../images/svgs/purpleLensFlare.svg) left top no-repeat;
   background-blend-mode: hard-light;
@@ -966,7 +978,7 @@ button {
   h3 {
     font-size: 32px;
   }
-  .first, .second, .third {
+  .first, .second, .third, .sixth, .seventh {
     width: 26px;
     height: 32px;
   }
@@ -993,6 +1005,14 @@ button {
     height: 36px;
     top: 216px;
     right: 170px;
+  }
+  .sixth {
+    top: 700px;
+    left: 50%;
+  }
+  .seventh {
+    top: 368px;
+    left: 440px;
   }
   main {
     background: url(../images/pngs/PurpleLensFlaredsk1.png) left top no-repeat, url(../images/pngs/PurpleLensFlare.png) right top no-repeat;
